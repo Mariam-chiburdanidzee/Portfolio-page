@@ -1,399 +1,399 @@
 @font-face {
-    font-family: 'Nunito-400', sans-serif;
-    src: url(../fonts/Nunito-Regular.ttf);
+  font-family: "Nunito-400", sans-serif;
+  src: url(../fonts/Nunito-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'Nunito-500', sans-serif;
-    src: url(../fonts/Nunito-Medium.ttf);
+  font-family: "Nunito-500", sans-serif;
+  src: url(../fonts/Nunito-Medium.ttf);
 }
 
 @font-face {
-    font-family: 'Nunito-600', sans-serif;
-    src: url(../fonts/Nunito-SemiBold.ttf);
+  font-family: "Nunito-600", sans-serif;
+  src: url(../fonts/Nunito-SemiBold.ttf);
 }
 
 @font-face {
-    font-family: 'Nunito-700', sans-serif;
-    src: url(../fonts/WorkSans-Bold.ttf);
+  font-family: "Nunito-700", sans-serif;
+  src: url(../fonts/WorkSans-Bold.ttf);
 }
 
 @font-face {
-    font-family: 'Nunito-800', sans-serif;
-    src: url(../fonts/WorkSans-ExtraBold.ttf);
+  font-family: "Nunito-800", sans-serif;
+  src: url(../fonts/WorkSans-ExtraBold.ttf);
 }
 
 :root {
-    --main-color: #00FFF5;
-    --border-color: #0066FF;
-    --size-16: 16px;
-    --size-18: 18px;
-    --size-20: 20px;
-    --size-22: 22px;
-    --size-24: 24px;
-    --size-28: 28px;
-    --size-30: 30px;
-    --line-height-22: 22px;
-    --line-height-41: 41px;
-    --line-height-32: 32px;
-    --line-height-27: 27px;
-    --line-height-25: 25px;
-    --line-height-30: 30px;
-    --line-height-38: 38px;
-    --fw-regular: 400;
-    --fw-medium: 500;
-    --fw-semi-bold: 600;
-    --fw-bold: 700;
-    --fw-extra-bold: 800;
+  --main-color: #00fff5;
+  --border-color: #0066ff;
+  --size-16: 16px;
+  --size-18: 18px;
+  --size-20: 20px;
+  --size-22: 22px;
+  --size-24: 24px;
+  --size-28: 28px;
+  --size-30: 30px;
+  --line-height-22: 22px;
+  --line-height-41: 41px;
+  --line-height-32: 32px;
+  --line-height-27: 27px;
+  --line-height-25: 25px;
+  --line-height-30: 30px;
+  --line-height-38: 38px;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #061427;
+  background-color: #061427;
 }
 
 .container {
-    max-width: 1240px;
-    width: 90%;
-    margin: 0 auto;
+  max-width: 1240px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .header-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 47px;
 }
 
 .header-wrapper a:hover {
-    text-shadow: 2px 0px 20px var(--main-color);
-    transform: scale(1.1);
+  text-shadow: 2px 0px 20px var(--main-color);
+  transform: scale(1.1);
 }
 
 .header-wrapper nav ul {
-    display: flex;
-    gap: 50px;
+  display: flex;
+  gap: 50px;
 }
 
 .header-wrapper a {
-    color: var(--main-color);
-    text-decoration: none;
-    font-size: var(--size-16);
-    line-height: var(--line-height-22);
-    font-family: 'Nunito-500', sans-serif;
-    font-weight: var(--fw-medium);
-
+  color: var(--main-color);
+  text-decoration: none;
+  font-size: var(--size-16);
+  line-height: var(--line-height-22);
+  font-family: "Nunito-500", sans-serif;
+  font-weight: var(--fw-medium);
 }
 
 .header-wrapper .header-logo {
-    font-size: var(--size-30);
-    line-height: var(--line-height-41);
-    font-family: 'Nunito-800', sans-serif;
-    font-weight: var(--fw-extra-bold);
-    transition: 1.5s ease;
+  font-size: var(--size-30);
+  line-height: var(--line-height-41);
+  font-family: "Nunito-800", sans-serif;
+  font-weight: var(--fw-extra-bold);
+  transition: 1.5s ease;
 }
 
 .header-wrapper .header-resume {
-    font-family: 'Nunito-700', sans-serif;
-    font-weight: var(--fw-bold);
-    border: dashed 1px var(--border-color);
-    border-radius: 30px;
-    padding: 15px 37px 12px;
-    transition: 1.5s ease;
+  font-family: "Nunito-700", sans-serif;
+  font-weight: var(--fw-bold);
+  border: dashed 1px var(--border-color);
+  border-radius: 30px;
+  padding: 15px 37px 12px;
+  transition: 1.5s ease;
 }
 
 h1 {
-    color: var(--main-color);
-    font-size: var(--size-28);
-    line-height: var(--line-height-38);
-    font-family: 'Nunito-800', sans-serif;
-    font-weight: var(--fw-extra-bold);
-    text-align: center;
-    padding: 150px 0 40px;
+  color: var(--main-color);
+  font-size: var(--size-28);
+  line-height: var(--line-height-38);
+  font-family: "Nunito-800", sans-serif;
+  font-weight: var(--fw-extra-bold);
+  text-align: center;
+  padding: 150px 0 40px;
 }
 
 .about-me-wrapper {
-    display: flex;
+  display: flex;
 }
 
 .about-me-profile {
-    border: dashed 1px var(--border-color);
-    padding: 35px 36px;
-    border-radius: 30px;
-    transition: 1s ease;
+  border: dashed 1px var(--border-color);
+  padding: 35px 36px;
+  border-radius: 30px;
+  transition: 1s ease;
 }
-.about-me-profile img{
-    transition: 1s ease;
+.about-me-profile img {
+  transition: 1s ease;
 }
-.about-me-profile img:hover{
-    transform: scale(1.1);
-    transition: 1s ease;
-    filter: drop-shadow(1px 1px 1px) var(--main-color);
+.about-me-profile img:hover {
+  transform: scale(1.1);
+  transition: 1s ease;
+  filter: drop-shadow(1px 1px 1px) var(--main-color);
 }
 
 .about-me-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 0 102px 0 84px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 102px 0 84px;
 }
 
 .about-me-content h2 {
-    color: var(--main-color);
-    font-size: var(--size-24);
-    line-height: var(--line-height-32);
-    font-family: 'Nunito-500', sans-serif;
-    font-weight: var(--fw-medium);
+  color: var(--main-color);
+  font-size: var(--size-24);
+  line-height: var(--line-height-32);
+  font-family: "Nunito-500", sans-serif;
+  font-weight: var(--fw-medium);
 }
 
 .about-me-content p {
-    color: var(--main-color);
-    font-size: var(--size-20);
-    line-height: var(--line-height-27);
-    font-family: 'Nunito-400', sans-serif;
+  color: var(--main-color);
+  font-size: var(--size-20);
+  line-height: var(--line-height-27);
+  font-family: "Nunito-400", sans-serif;
 }
 
 .main-button {
-    color: #FFFFFF;
-    background-color: var(--main-color);
-    border-radius: 30px;
-    font-size: var(--size-18);
-    line-height: var(--line-height-25);
-    font-family: 'Nunito-400', sans-serif;
-    padding: 12px 43px;
-    cursor: pointer;
-    transition: 0.2s ease;
+  color: #ffffff;
+  background-color: var(--main-color);
+  border-radius: 30px;
+  font-size: var(--size-18);
+  line-height: var(--line-height-25);
+  font-family: "Nunito-400", sans-serif;
+  padding: 12px 43px;
+  cursor: pointer;
+  transition: 0.2s ease;
 }
 
-.main-button:hover{
-    filter: drop-shadow(2px 4px 6px) ;
-    color: #061427;
-    transform: scale(1.1);
-    transition: 0.2s ease;
+.main-button:hover {
+  filter: drop-shadow(2px 4px 6px);
+  color: #061427;
+  transform: scale(1.1);
+  transition: 0.2s ease;
 }
 
 .about-me-icons {
-    align-items: flex-end;
-    display: flex;
+  align-items: flex-end;
+  display: flex;
 }
 
 .about-me-icons ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
 }
 
-
 .say-hello {
-    margin: 167px 0 28px;
-    position: relative;
-    text-align: center;
+  margin: 167px 0 28px;
+  position: relative;
+  text-align: center;
 }
 
 .image {
-    position: absolute;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -10%);
+  position: absolute;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -10%);
 }
 
 h3 {
-    color: var(--border-color);
-    font-size: var(--size-30);
-    line-height: var(--line-height-41);
-    font-family: 'Nunito-600', sans-serif;
-    font-weight: var(--fw-semi-bold);
-    text-align: center;
+  color: var(--border-color);
+  font-size: var(--size-30);
+  line-height: var(--line-height-41);
+  font-family: "Nunito-600", sans-serif;
+  font-weight: var(--fw-semi-bold);
+  text-align: center;
 }
 
 .work-card-content {
-    position: relative;
-    opacity: 1;
+  position: relative;
+  opacity: 1;
 }
 
 .work-card div img {
-    border: dashed 1px var(--border-color);
-    border-radius: 30px;
-    padding: 38px 33px 37px 33px;
+  border: dashed 1px var(--border-color);
+  border-radius: 30px;
+  padding: 38px 33px 37px 33px;
 }
 
 .work-box-wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 60px;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  justify-items: center;
 }
 
 .work-box-wrapper .work-card .card-button {
-    position: absolute;
-    top: 45%;
-    left: 25%;
-    color: white;
-    font-size: var(--size-18);
-    line-height: var(--line-height-25);
-    font-family: 'Nunito-400', sans-serif;
-    background-color: var(--border-color);
-    padding: 12px 40px 12px 40px;
-    border-radius: 30px;
-    opacity: 0;
-    cursor: pointer;
-    transition: 0.8s;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  color: white;
+  font-size: var(--size-18);
+  line-height: var(--line-height-25);
+  font-family: "Nunito-400", sans-serif;
+  background-color: var(--border-color);
+  padding: 12px 40px 12px 40px;
+  border-radius: 30px;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.8s;
 }
 
 .work-box-wrapper .work-card .work-card-content:hover button {
-    opacity: 1;
-    transition: 0.8s;
-    transform: scale(1);
+  opacity: 1;
+  transition: 0.8s;
+  transform: scale(1);
 }
-
 
 .bottom-button button {
-    background-color: var(--main-color);
-    font-size: var(--size-18);
-    line-height: var(--line-height-25);
-    color: white;
-    font-family: 'Nunito-400', sans-serif;
-    border-radius: 30px;
-    padding: 12px 81px;
-    cursor: pointer;
-    transition: 0.2s ease;
+  background-color: var(--main-color);
+  font-size: var(--size-18);
+  line-height: var(--line-height-25);
+  color: white;
+  font-family: "Nunito-400", sans-serif;
+  border-radius: 30px;
+  padding: 12px 81px;
+  cursor: pointer;
+  transition: 0.2s ease;
 }
 
-.bottom-button button:hover  {
-    filter: drop-shadow(2px 4px 6px) ;
-    color: #061427;
-    transform: scale(1.1);
-    transition: 0.2s ease;
+.bottom-button button:hover {
+  filter: drop-shadow(2px 4px 6px);
+  color: #061427;
+  transform: scale(1.1);
+  transition: 0.2s ease;
 }
 
 .bottom-button {
-    margin: 60px 0 150px;
-    text-align: center;
+  margin: 60px 0 150px;
+  text-align: center;
 }
 
 .time {
-    color: #FFFFFF;
-    font-size: var(--size-20);
-    line-height: var(--line-height-27);
-    font-family: 'Nunito-400', sans-serif;
-
+  color: #ffffff;
+  font-size: var(--size-20);
+  line-height: var(--line-height-27);
+  font-family: "Nunito-400", sans-serif;
 }
 
 .internship {
-    color: #FFFFFF;
-    font-size: var(--size-22);
-    line-height: var(--line-height-30);
-    font-family: 'Nunito-700', sans-serif;
-    font-weight: var(--fw-bold);
+  color: #ffffff;
+  font-size: var(--size-22);
+  line-height: var(--line-height-30);
+  font-family: "Nunito-700", sans-serif;
+  font-weight: var(--fw-bold);
 }
 
 .front-end {
-    color: #FFFFFF;
-    font-size: var(--size-20);
-    line-height: var(--line-height-27);
-    font-family: 'Nunito-500', sans-serif;
-    font-weight: var(--fw-medium);
+  color: #ffffff;
+  font-size: var(--size-20);
+  line-height: var(--line-height-27);
+  font-family: "Nunito-500", sans-serif;
+  font-weight: var(--fw-medium);
 }
 
 .job-text p {
-    color: #FFFFFF;
-    font-size: var(--size-16);
-    line-height: var(--line-height-22);
-    font-family: 'Nunito-400', sans-serif;
+  color: #ffffff;
+  font-size: var(--size-16);
+  line-height: var(--line-height-22);
+  font-family: "Nunito-400", sans-serif;
 }
 
 .experience-card {
-    border: dashed 1px var(--border-color);
-    border-radius: 30px;
-    padding: 30px 63px 57px 54px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+  border: dashed 1px var(--border-color);
+  border-radius: 30px;
+  padding: 30px 63px 57px 54px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 
 .experience-wrapper {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .experience-date {
-    rotate: 270deg;
-    width: 38%;
+  rotate: 270deg;
+  width: 38%;
 }
 
 .job-text {
-    display: flex;
-    flex-direction: column;
-    width: 65%;
-    gap: 19px
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  gap: 19px;
 }
 
 .job-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 h4 {
-    color: white;
-    font-size: var(--size-28);
-    line-height: var(--line-height-38);
-    font-family: 'Nunito-700', sans-serif;
-    font-weight: var(--fw-bold);
+  color: white;
+  font-size: var(--size-28);
+  line-height: var(--line-height-38);
+  font-family: "Nunito-700", sans-serif;
+  font-weight: var(--fw-bold);
 }
 
 h5 {
-    color: white;
-    font-family: 'Nunito-700', sans-serif;
-    font-weight: var(--fw-bold);
-    font-size: var(--size-22);
-    line-height: var(--line-height-30);
+  color: white;
+  font-family: "Nunito-700", sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: var(--size-22);
+  line-height: var(--line-height-30);
 }
 
 .contact-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    margin: 52px 0 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin: 52px 0 76px;
 }
 
 .contact-card-left {
-    border: dashed 1px var(--border-color);
-    border-radius: 30px;
-    padding: 44px 41px 50px 44px;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    gap: 38px;
+  border: dashed 1px var(--border-color);
+  border-radius: 30px;
+  padding: 44px 41px 50px 44px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
 }
 
 .contact-information {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .contact-card-left .contact-information span {
-    color: white;
-    font-size: var(--size-20);
-    line-height: var(--line-height-27);
-    font-family: 'Nunito-600', sans-serif;
-    font-weight: var(--fw-semi-bold);
+  color: white;
+  font-size: var(--size-20);
+  line-height: var(--line-height-27);
+  font-family: "Nunito-600", sans-serif;
+  font-weight: var(--fw-semi-bold);
 }
 
 .contact-card-left .contact-information span,
 .contact-card-left .contact-information img {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .contact-bottom-card ul {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .contact-wrapper-bottom {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
